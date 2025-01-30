@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
- 
-public class Carta
+ //hola
+ public class Carta
 {
     public string Valor { get; set; }
     public string Palo { get; set; }
