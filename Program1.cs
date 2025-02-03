@@ -20,7 +20,7 @@ using System.Collections.Generic;
             return 10;
         if (Valor == "A") // El As vale 11, pero puede ajustarse si se pasa de 21
             return 11;
-        return int.Parse(Valor); // Las cartas numéricas tienen su valor directo
+        return int.Parse(Valor); 
     }
  
     // Mostrar la carta
