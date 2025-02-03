@@ -43,7 +43,7 @@ class Baraja
         string[] valores = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A" };
         string[] palos = { "Corazones", "Tréboles", "Picas", "Diamantes" };
  
-        // Llenar la baraja con las cartas
+        // Obtener todos los elementos de la lista: Llenar la baraja con todas las cartas
         foreach (var palo in palos)
         {
             foreach (var valor in valores)
