@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
- //hola
+
  public class Carta
 {
     public string Valor { get; set; }
