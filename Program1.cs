@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
- 
-public class Carta
+
+ public class Carta
 {
     public string Valor { get; set; }
     public string Palo { get; set; }
@@ -20,7 +20,7 @@ public class Carta
             return 10;
         if (Valor == "A") // El As vale 11, pero puede ajustarse si se pasa de 21
             return 11;
-        return int.Parse(Valor); // Las cartas numéricas tienen su valor directo
+        return int.Parse(Valor); 
     }
  
     // Mostrar la carta
@@ -43,7 +43,7 @@ class Baraja
         string[] valores = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A" };
         string[] palos = { "Corazones", "Tréboles", "Picas", "Diamantes" };
  
-        // Llenar la baraja con las cartas
+        // Obtener todos los elementos de la lista: Llenar la baraja con todas las cartas
         foreach (var palo in palos)
         {
             foreach (var valor in valores)
